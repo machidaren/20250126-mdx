@@ -277,7 +277,7 @@ small{
     position: absolute;
     top: 0;
     right: -100%;
-    transition: .5s;
+    transition: .3s;
   }
 
   nav ul{
