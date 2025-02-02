@@ -230,11 +230,10 @@ small{
 
 
 /* スマホ用 */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
 
-  
   html{
-  width: max-content;
+    width: max-content;
   }
 
   body{
@@ -243,15 +242,15 @@ small{
 
   header{
     background: #eee;
-  display: flex;
-  justify-content: space-between;
-  padding: 35px;
-  top: 0;
-  position: fixed;
-  z-index: 99;
-  transition: transform 0.3s 0.3s;
-  text-align: center;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+   transition: transform 0.3s 0.3s;
+   text-align: center;
+   width: 100%;
   }
 
 
@@ -342,7 +341,6 @@ small{
 
 .menu_active {
   right: 0;
-
 }
 
 
