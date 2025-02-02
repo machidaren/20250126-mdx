@@ -240,6 +240,17 @@ small{
     width: max-content;
   }
 
+  p{
+    font-size: 26px;
+  }
+
+  h2{
+    font-size: 60px;
+  }
+
+  .btn_arrow{
+    font-size: 25px;
+  }
   header{
     background: #eee;
     display: flex;
@@ -338,6 +349,15 @@ small{
 
   .sec-1-right{
     margin-right: 50px;
+  }
+
+  .human p{
+    font-size: 28px;
+  }
+  .human h3{
+    margin: auto;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
 }
